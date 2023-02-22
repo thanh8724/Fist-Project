@@ -1,0 +1,540 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+}
+.mail{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    font-weight: 100px;
+}
+.mail>img{
+    float: left;
+}
+.discord{
+    width: 170px;
+    position: absolute;
+    left: 230px;
+    top: 2px;
+}
+.logo{
+    position: absolute;
+    right: 1%;
+    top: 10px;
+}
+.logo>a>img{
+    margin-left: 10px;
+}
+.header-inner-icon{
+    position: absolute;
+    right: 3%;
+    bottom: 10px;
+}
+.header-inner-icon>a>img{
+    width: 30px;
+    height: auto;
+    padding: 0 10px;
+}
+
+
+
+.nqt{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+}
+.header-inner a{
+    text-decoration: none;
+}
+a .panda{
+    color: rgb(58, 58, 58);
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: -110px;
+}
+.header-inner{
+    width: 100%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   height: 50px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu-item{
+    margin: 0 1rem;
+}
+.menu-link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 12px;
+}
+.menu-child{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #EEEEEE;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s linear;
+}
+.menu-child-list li{
+    list-style: none;
+    padding: 2rem;
+}
+.menu-child-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-child-item{
+    width: 200%;
+    margin-right: 50px;
+}
+.menu-child-list{
+    display: flex;
+}
+.menu-item:focus-within .menu-child{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+main{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+}
+.top-main{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+.top-main img{
+    position: absolute;
+    top: 2cm;
+    width: 100%;
+    height: 280px;
+}
+.bottom-main{
+    position: relative;
+    background-color: white;
+    width: 670px;
+    height: 700px;
+    top: 1.5cm;
+    left: 25%;
+}
+
+.login{
+    position: relative;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    top: 90px;
+}
+.login h3{
+    color: #8071b3;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: "Quicksand-Regular";
+    position: absolute;
+    top: -40px;
+    left: 0px;
+}
+
+.sign-up{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    right: 0cm;
+    top: 100px;
+    background-color: #8071b3;
+}
+.sign-up a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+
+.form-group{
+    position: relative;
+    width: 670px;
+    height: 290px;
+    background-color: white;
+    top: 3cm;
+}
+.form-group input{
+    font-size: 20px;
+    padding: 0 20px;
+}
+.form-group ::placeholder{
+    color: #8071b3;
+    font-size: 20px;
+}
+.user{
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #8071b3;
+    width: 670px;
+    height: 50px;
+    border-radius: 30px;
+}
+.emails{
+    margin-top: 20px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #8071b3;
+    width: 670px;
+    height: 50px;
+    border-radius: 30px;
+}
+.pass{
+    margin-top: 20px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #8071b3;
+    width: 670px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+
+label{
+   position: relative;
+   top: 20px;
+   color: #8F9196;
+   font-size: 19px;
+}
+label a{
+    text-decoration: none;
+    color: #8071b3;
+}
+.log-in{
+    position: relative;
+    background-color: white;
+    width: 670px;
+    height: 150px;
+    top: 2cm;
+}
+.form-button{
+    position: absolute;
+    background: linear-gradient(150deg,#8071b3,#9923ee);
+    color: white;
+    width: 670px;
+    box-sizing: border-box;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: 0px solid;
+    font-size: 20px;
+    top: 10px;
+}
+.form-button:hover{
+    position: absolute;
+    top: -4px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.log-in a{
+    position: absolute;
+    text-decoration: none;
+    top: 1.4cm;
+    box-sizing: border-box;
+}
+.lost-pass{
+    color: #8071b3;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+footer{
+    position: relative;
+    background-color: #444549;
+    width: 100%;
+    height: 450px;
+    top: 0%;
+}
+.footer-content{
+    position: relative;
+    background-color:  #444549;
+    width: 100%;
+    height: 320px;
+    top: 70px;
+}
+.left{
+    position: absolute;
+    background-color: #444549;
+    width: 300px;
+    height: 320px;
+    left: 10px;
+}
+.left-logo{
+    position: absolute;
+    top: 20px;
+    background-color: #444549;
+}
+.left-logo>a{
+    font-size: 50px;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: white;
+}
+.email{
+    position: absolute;
+    background-color: #444549;
+    width: 300px;
+    height: 30px;
+    top: 3cm;
+}
+.email-name{
+    color: #8F9196;
+    position: a;
+    bottom: 1%;
+}
+
+.hours{
+    position: absolute;
+    background-color: #444549;
+    width: 300px;
+    height: 30px;
+    top: 4cm;
+}
+.hours>p{
+    color: #8F9196;
+}
+
+
+.footer-logo{
+    background-color: #444549;
+    width: 300px;
+    position: relative;
+    top: 6cm;
+}
+.footer-logo img{
+    margin-left: 15px;
+}
+
+.right{
+    position: absolute;
+    background-color:  #444549;
+    height: 320px;
+    width: 1000px;
+    right: 0cm;
+}
+.right-one{
+    position: absolute;
+    background-color: #444549;
+    height: 320px;
+    width: 200px;
+    left: 0.6cm;
+}
+.right-one h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.right-one hr{
+    position: absolute;
+    width: 90px;
+    left: 1.4cm;
+    bottom: 260px;
+}
+.right-one-link{
+    position: absolute;
+    bottom: 50px;
+    left: 0.3cm;
+}
+.right-list{
+    list-style: none;
+}
+.right-list>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+.right-two{
+    position: absolute;
+    background-color: #444549;
+    height: 320px;
+    width: 200px;
+    left: 5cm;
+}
+.right-two h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.right-two hr{
+    position: absolute;
+    width: 120px;
+    left: 1cm;
+    bottom: 260px;
+}
+.right-two-list{
+    list-style: none;
+
+}
+.right-two-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.right-two-link{
+    position: absolute;
+    left: 0cm;
+}
+
+
+
+
+
+.right-three{
+    position: absolute;
+    background-color: #444549;
+    height: 320px;
+    width: 200px;
+    left: 10.2cm;
+}
+.right-three h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.right-three hr{
+    position: absolute;
+    width: 160px;
+    left: 0.5cm;
+    bottom: 260px;
+}
+.right-three-list{
+    list-style: none;
+    width: 200px;
+}
+.right-three-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.right-three-link{
+    position: absolute;
+    left: -0.5cm;
+}
+
+
+
+
+
+
+.right-four{
+    position: absolute;
+    background-color: #444549;
+    height: 320px;
+    width: 350px;
+    right: 2cm;
+}
+.right-four h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.right-four hr{
+    position: absolute;
+    width: 200px;
+    left: 1.5cm;
+    bottom: 260px;
+}
+.right-four-link p{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    left: 1.5cm;
+}
+
+.footer-end{
+    background-color: #444549;
+    width: 100%;
+    height: 65px;
+    position: relative;
+    top: 1.5cm;
+}
+.end-left{
+    font-size: 18px;
+    line-height: 30px;
+    color: #8F9196;
+}
+.country{
+    position: absolute;
+    bottom: 10px;
+    left: 9cm;
+}
+.country a{
+    margin-left: 10px;
+}
+.country img{
+    width: 25px;
+    height: auto;
+}
+
+
+.end-right{
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+}
+.end-right a{
+    color: #8F9196;
+    text-decoration: none;
+    margin-left: 30px;
+}

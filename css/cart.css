@@ -1,0 +1,660 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+}
+.mail{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    font-weight: 100px;
+}
+.mail>img{
+    float: left;
+}
+.discord{
+    width: 170px;
+    position: absolute;
+    left: 230px;
+    top: 2px;
+}
+.logo{
+    position: absolute;
+    right: 1%;
+    top: 10px;
+}
+.logo>a>img{
+    margin-left: 10px;
+}
+.header-inner-icon{
+    position: absolute;
+    right: 3%;
+    bottom: 10px;
+}
+.header-inner-icon>a>img{
+    width: 30px;
+    height: auto;
+    padding: 0 10px;
+}
+
+
+
+.nqt{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+}
+.header-inner a{
+    text-decoration: none;
+}
+a .panda{
+    color: rgb(58, 58, 58);
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: -110px;
+}
+.header-inner{
+    width: 100%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   height: 50px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu-item{
+    margin: 0 1rem;
+}
+.menu-link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 12px;
+}
+.menu-child{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #EEEEEE;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s linear;
+}
+.menu-child-list li{
+    list-style: none;
+    padding: 2rem;
+}
+.menu-child-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-child-item{
+    width: 200%;
+    margin-right: 50px;
+}
+.menu-child-list{
+    display: flex;
+}
+.menu-item:focus-within .menu-child{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+main{
+    background-color: white;
+    width: 100%;
+    min-height: 500px;
+}
+.thongtin{
+    position: relative;
+    top: 3cm;
+    left: 60px;
+    background-color: #f7f7f7;
+    width: 90%;
+    height: 100px;
+    box-shadow: 3px 3px 6px -3px rgb(0 0 0 / 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.ship{
+    width: 25%;
+    height: 100px;
+    text-align: center;
+}
+.ship p{
+    margin-top: 1.5cm;
+}
+.track{
+    position: absolute;
+    width: 25%;
+    height: 100px;
+    left: 38%;
+    text-align: center;
+}
+.track p{
+    margin-top: 1.5cm;
+}
+.secure{
+    position: absolute;
+    width: 25%;
+    height: 100px;  
+    right: 0%;
+    text-align: center;
+}
+.secure p{
+    margin-top: 1.5cm;
+}
+.imggsp{
+    position: relative;
+    width: 90%;
+    height: 90px;
+    background-color: white;
+    top: 3.5cm;
+    left: 60px;
+}
+.imggsp a{
+    text-decoration: none;
+}
+.imggsp img{
+    width: 90px;
+    height: auto;
+}
+.imggsp .namee{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    bottom: 0.5cm;
+    left: 150px;
+}
+.imggsp .edit{
+    position: absolute;
+    font-size: 17px;
+    color: black;
+    bottom: 0.5cm;
+    left: 15cm;
+}
+.gia{
+    position: absolute;
+    bottom: 0.4cm;
+    left: 19cm;
+    font-size: 20px;
+}
+.soluong{
+    position: absolute;
+    bottom: 0.8cm;
+    left: 22cm;
+    width: 50px;
+    height: 30px;
+}
+.gia2{
+    position: absolute;
+    bottom: 1cm;
+    right: 2cm;
+    font-size: 15px;
+}
+.bottom{
+    position: relative;
+    width: 90%;
+    height: 70px;
+    background-color: white;
+    top: 3.5cm;
+    left: 60px;
+}
+.bottom input{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #8071b3;
+}
+.bottom a{
+    position: absolute;
+    background-color: #8071b3;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    top: 15px;
+    left: 5cm;
+    text-decoration: none;
+}
+.apply p{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    position: absolute;
+    bottom: -8px;
+    left: 5px;
+}
+.update{
+    position: absolute;
+    right: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    top: 0.4cm;
+    background-color: #8071B3;
+    text-align: center;
+}
+.update p{
+    color: black;
+}
+
+
+
+
+
+
+
+hr{
+    position: relative;
+    top: 3.5cm;
+    width: ;
+    color: gray;
+    width: 95%;
+}
+.totasl{
+    font-size: 25px;
+    margin-top: 5cm;
+    margin-left: 48%;
+}
+.bentrai{
+    background-color: white;
+    width: 50%;
+    height: 270px;
+    position: relative;
+    left: 48%;
+    top: 9px;
+    border: 1px solid gray;
+}
+.subtotals{
+    width: 100%;
+    position: absolute;
+    height: 70px;
+    right: 0%;
+    background-color: white;
+    border: 1px solid gray;
+}
+.subtotals .name{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    float: left;
+    margin: 20px 20px;
+}
+.subtotals p{
+    font-size: 15px;
+    float: left;
+    margin: 20px 100px;
+}
+.Shipping{
+    width: 100%;
+    position: absolute;
+    min-height: 70px;
+    right: 0cm;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 70px;
+}
+.Shipping .name{
+    font-size: 20px;
+    float: left;
+    margin: 20px 20px;
+    font-weight: 600;
+}
+.ship-right{
+    top: 10px;
+    left: 100px;
+    position: relative;
+    font-size: 15px;
+    width: 80%;
+}
+.extrafree{
+    width: 100%;
+    position: absolute;
+    min-height: 10px;
+    right: 0%;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 158px;
+}
+.extrafree .extra{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 20px;
+    float: left;
+}
+.extrafree p{
+    float: left;
+    margin: 20px 100px;
+}
+.total{
+    width: 100%;
+    position: absolute;
+    min-height: 10px;
+    right: 0%;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 212px;
+}
+.total p{
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+}
+.total strong{
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 180px;
+}
+
+.checkout{
+    position: relative;
+    background-color: #8071B3;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    top: 1cm;
+    left: 48%;
+}
+.checkout p{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.paypan img{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    left: 48%;
+    top: 50px;
+}
+
+
+
+
+
+footer{
+    position: relative;
+    background-color: #444549;
+    width: 100%;
+    height: 450px;
+    top: 2cm;
+}
+.footer-content{
+    position: relative;
+    background-color:  #444549;
+    width: 100%;
+    height: 320px;
+    top: 70px;
+}
+.left{
+    position: absolute;
+    background-color: #444549;
+    width: 300px;
+    height: 320px;
+    left: 10px;
+}
+.left-logo{
+    position: absolute;
+    top: 20px;
+    background-color: #444549;
+}
+.left-logo>a{
+    font-size: 50px;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: white;
+}
+.email{
+    position: absolute;
+    background-color: #444549;
+    width: 300px;
+    height: 30px;
+    top: 3cm;
+}
+.email-name{
+    color: #8F9196;
+    position: a;
+    bottom: 1%;
+}
+
+.hours{
+    position: absolute;
+    background-color: #444549;
+    width: 300px;
+    height: 30px;
+    top: 4cm;
+}
+.hours>p{
+    color: #8F9196;
+}
+
+
+.footer-logo{
+    background-color: #444549;
+    width: 300px;
+    position: relative;
+    top: 6cm;
+}
+.footer-logo img{
+    margin-left: 15px;
+}
+
+.right{
+    position: absolute;
+    background-color:  #444549;
+    height: 320px;
+    width: 1000px;
+    right: 0cm;
+}
+.right-one{
+    position: absolute;
+    background-color: #444549;
+    height: 320px;
+    width: 200px;
+    left: 0.6cm;
+}
+.right-one h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.right-one hr{
+    position: absolute;
+    width: 90px;
+    left: 1.4cm;
+    bottom: 260px;
+}
+.right-one-link{
+    position: absolute;
+    bottom: 50px;
+    left: 0.3cm;
+}
+.right-list{
+    list-style: none;
+}
+.right-list>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+.right-two{
+    position: absolute;
+    background-color: #444549;
+    height: 320px;
+    width: 200px;
+    left: 5cm;
+}
+.right-two h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.right-two hr{
+    position: absolute;
+    width: 120px;
+    left: 1cm;
+    bottom: 260px;
+}
+.right-two-list{
+    list-style: none;
+
+}
+.right-two-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.right-two-link{
+    position: absolute;
+    left: 0cm;
+}
+
+
+
+
+
+.right-three{
+    position: absolute;
+    background-color: #444549;
+    height: 320px;
+    width: 200px;
+    left: 10.2cm;
+}
+.right-three h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.right-three hr{
+    position: absolute;
+    width: 160px;
+    left: 0.5cm;
+    bottom: 260px;
+}
+.right-three-list{
+    list-style: none;
+    width: 200px;
+}
+.right-three-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.right-three-link{
+    position: absolute;
+    left: -0.5cm;
+}
+
+
+
+
+
+
+.right-four{
+    position: absolute;
+    background-color: #444549;
+    height: 320px;
+    width: 350px;
+    right: 2cm;
+}
+.right-four h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.right-four hr{
+    position: absolute;
+    width: 200px;
+    left: 1.5cm;
+    bottom: 260px;
+}
+.right-four-link p{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    left: 1.5cm;
+}
+
+.footer-end{
+    background-color: #444549;
+    width: 100%;
+    height: 65px;
+    position: relative;
+    top: 1.5cm;
+}
+.end-left{
+    font-size: 18px;
+    line-height: 30px;
+    color: #8F9196;
+}
+.country{
+    position: absolute;
+    bottom: 10px;
+    left: 9cm;
+}
+.country a{
+    margin-left: 10px;
+}
+.country img{
+    width: 25px;
+    height: auto;
+}
+
+
+.end-right{
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+}
+.end-right a{
+    color: #8F9196;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.huhu{
+    position: relative;
+    width: 100%;
+    top: 0cm;
+}
